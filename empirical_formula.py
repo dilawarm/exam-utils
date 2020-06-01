@@ -33,7 +33,7 @@ if __name__ == "__main__":
         l = int(input("Nedre grense for søk (inklusivt): "))
         r = int(input("Øvre grense for søk (inklusivt): "))
         if l > r:
-            print("Nå var du jævlig morsom. Faen ta deg og alt du står for. Vit at Dilawar hater deg.")
+            print(":(")
             continue
         svar, i = find_empirical_formula(info, l, r)
         if i != -1:
